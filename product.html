@@ -70,14 +70,14 @@
                             <h1>Product 1</h1>
                             <p>10.00 KWD</p>
                             <div class="input-container">
-                                <select>
-                                    <option value="" disabled selected hidden>Select Size</option>
-                                    <option>XXL</option>
-                                    <option>XL</option>
-                                    <option>L</option>
-                                    <option>M</option>
-                                    <option>S</option>
-                                </select>
+                                <div class="product-colors">
+                                    <input type="radio" name="colors" id="color-1" checked hidden>
+                                    <label for="color-1" style="background: green;"></label>
+                                    <input type="radio" name="colors" id="color-2" hidden>
+                                    <label for="color-2" style="background-color: blue;"></label>
+                                    <input type="radio" name="colors" id="color-3" hidden>
+                                    <label for="color-3" style="background-color: blueviolet;"></label>
+                                </div>
                                 <div class="product-input">
                                     <input type="number" required min="1" max="9" value="1" name="qty">
                                     <a href="" class="btn">Add To Cart</a>

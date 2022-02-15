@@ -579,16 +579,6 @@ select {
     outline: none;
 }
 
-.input-container select {
-    width: 120px;
-    height: 40px;
-    font-size: 17px;
-    text-align: center;
-    margin-right: 30px;
-    display: block;
-    margin-bottom: 30px;
-}
-
 .product-input {
     margin-bottom: 15px;
     display: flex;
@@ -612,7 +602,7 @@ select {
 }
 
 .col-2 p {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .col-2 p {
@@ -634,6 +624,35 @@ select {
     color: #555;
     font-size: 14px;
     margin-bottom: 0px;
+}
+
+.input-container select {
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    text-align: center;
+    margin-right: 30px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.product-colors{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.product-colors label{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 50px;
+    border: 0px solid #FFA20C;
+    cursor: pointer;
+    transition: border 0.25s ease;
+}
+
+.product-colors input[type = "radio"]:checked + label{
+    border: 3px solid #FFA20C;
 }
 
 /* Cart Page */
